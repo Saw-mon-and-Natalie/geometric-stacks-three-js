@@ -53,7 +53,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(glsl|vert|frag)$/i,
+        test: /\.(glsl|vert|frag|shader|txt)$/i,
         loader: 'raw-loader',
       },
     ],

@@ -16,6 +16,7 @@
         "sourceType": "module"
     },
     "rules": {
-        "semi": ["error", "never", { "beforeStatementContinuationChars": "always"}]
+        "semi": ["error", "never", { "beforeStatementContinuationChars": "always"}],
+        "no-unexpected-multiline": "error"
     }
 }
